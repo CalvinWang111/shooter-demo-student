@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "4178ba39-f4bf-4d43-88d4-ec4787d9cde4",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "4178ba39-f4bf-4d43-88d4-ec4787d9cde4@6c48a",
+      "displayName": "ConnonLv_01",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4178ba39-f4bf-4d43-88d4-ec4787d9cde4",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false,
+    "redirect": "4178ba39-f4bf-4d43-88d4-ec4787d9cde4@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "dcu70QEZpPg6qqlIAuUuZe"
+    }
+  }
+}

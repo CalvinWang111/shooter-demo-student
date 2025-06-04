@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "8db60aa9-79e7-410f-b3db-8c2e8af671ab",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "8db60aa9-79e7-410f-b3db-8c2e8af671ab@6c48a",
+      "displayName": "Axe",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8db60aa9-79e7-410f-b3db-8c2e8af671ab",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false,
+    "redirect": "8db60aa9-79e7-410f-b3db-8c2e8af671ab@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "dcu70QEZpPg6qqlIAuUuZe"
+    }
+  }
+}

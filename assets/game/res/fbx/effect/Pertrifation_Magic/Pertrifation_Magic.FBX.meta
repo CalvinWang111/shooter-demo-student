@@ -1,0 +1,209 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f740107a-5c73-46aa-9be3-dfa2594a2d7a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "274bb": {
+      "importer": "gltf-mesh",
+      "uuid": "f740107a-5c73-46aa-9be3-dfa2594a2d7a@274bb",
+      "displayName": "",
+      "id": "274bb",
+      "name": "Pertrifation.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b5890": {
+      "importer": "gltf-animation",
+      "uuid": "f740107a-5c73-46aa-9be3-dfa2594a2d7a@b5890",
+      "displayName": "",
+      "id": "b5890",
+      "name": "Pertrifation_magic_animation01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.6666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "f740107a-5c73-46aa-9be3-dfa2594a2d7a@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 20
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "53e01": {
+      "importer": "texture",
+      "uuid": "f740107a-5c73-46aa-9be3-dfa2594a2d7a@53e01",
+      "displayName": "",
+      "id": "53e01",
+      "name": "Map #6.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/effect/Pertrifation_Magic/Pertrifation_magic.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5c895": {
+      "importer": "gltf-material",
+      "uuid": "f740107a-5c73-46aa-9be3-dfa2594a2d7a@5c895",
+      "displayName": "",
+      "id": "5c895",
+      "name": "Material #2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e1b18": {
+      "importer": "gltf-scene",
+      "uuid": "f740107a-5c73-46aa-9be3-dfa2594a2d7a@e1b18",
+      "displayName": "",
+      "id": "e1b18",
+      "name": "Pertrifation_Magic.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #6",
+        "uri": "db://assets/game/res/fbx/effect/Pertrifation_Magic/Pertrifation_magic.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Pertrifation_magic_animation01",
+        "duration": 1.6666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Pertrifation_magic_animation01",
+            "from": 0,
+            "to": 1.6666666269302368,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "f740107a-5c73-46aa-9be3-dfa2594a2d7a@e1b18",
+    "assetFinder": {
+      "meshes": [
+        "f740107a-5c73-46aa-9be3-dfa2594a2d7a@274bb"
+      ],
+      "skeletons": [
+        "f740107a-5c73-46aa-9be3-dfa2594a2d7a@438fe"
+      ],
+      "textures": [
+        "f740107a-5c73-46aa-9be3-dfa2594a2d7a@53e01"
+      ],
+      "materials": [
+        "f740107a-5c73-46aa-9be3-dfa2594a2d7a@5c895"
+      ],
+      "scenes": [
+        "f740107a-5c73-46aa-9be3-dfa2594a2d7a@e1b18"
+      ]
+    },
+    "materials": {
+      "f740107a-5c73-46aa-9be3-dfa2594a2d7a@5c895": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_TEXTURE": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 0,
+              "b": 255,
+              "a": 255
+            }
+          }
+        ]
+      }
+    },
+    "tangents": 1,
+    "normals": 0
+  }
+}

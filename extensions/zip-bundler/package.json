@@ -1,0 +1,32 @@
+{
+    "package_version": 2,
+    "version": "1.0.0",
+    "name": "zip-bundler",
+    "description": "i18n:zip-bundler.description",
+    "main": "./dist/main.js",
+    "devDependencies": {
+        "@types/node": "^16.0.1",
+        "typescript": "^4.9.5"
+    },
+    "author": "igs",
+    "editor": ">=3.6.2",
+    "scripts": {
+        "build": "tsc -b",
+        "watch": "tsc -w"
+    },
+    "contributions": {
+        "asset-db": {
+            "mount": {
+                "path": "./assets",
+                "readonly": true
+            }
+        },
+        "builder": "./dist/builder.js",
+        "menu": []
+    },
+    "dependencies": {
+        "@old-rd1/license": "^1.0.25",
+        "@types/numeral": "^2.0.5",
+        "numeral": "^2.0.6"
+    }
+}

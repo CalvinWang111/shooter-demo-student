@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "033c3e7c-5bb1-4419-ba3a-3d20255e53d6",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "033c3e7c-5bb1-4419-ba3a-3d20255e53d6@6c48a",
+      "displayName": "zh-TW",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "033c3e7c-5bb1-4419-ba3a-3d20255e53d6",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "hasAlpha": true,
+    "redirect": "033c3e7c-5bb1-4419-ba3a-3d20255e53d6@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "ffuRZ/80tBapG8kWh96Qiz"
+    }
+  }
+}

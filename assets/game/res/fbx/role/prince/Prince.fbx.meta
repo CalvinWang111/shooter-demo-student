@@ -1,0 +1,540 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-10.cconb",
+    "__original-animation-2.cconb",
+    "__original-animation-3.cconb",
+    "__original-animation-4.cconb",
+    "__original-animation-5.cconb",
+    "__original-animation-6.cconb",
+    "__original-animation-7.cconb",
+    "__original-animation-8.cconb",
+    "__original-animation-9.cconb"
+  ],
+  "subMetas": {
+    "c6160": {
+      "importer": "gltf-mesh",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@c6160",
+      "displayName": "",
+      "id": "c6160",
+      "name": "Cylinder001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "65acf": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@65acf",
+      "displayName": "",
+      "id": "65acf",
+      "name": "Cannon_Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "caa71": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@caa71",
+      "displayName": "",
+      "id": "caa71",
+      "name": "Cannon_Attack.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.10000000149011612
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "fe8b3": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@fe8b3",
+      "displayName": "",
+      "id": "fe8b3",
+      "name": "Aim_Idle.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "cae50": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@cae50",
+      "displayName": "",
+      "id": "cae50",
+      "name": "Aim_Attack.animation",
+      "userData": {
+        "gltfIndex": 3,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.10000000149011612
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6982a": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@6982a",
+      "displayName": "",
+      "id": "6982a",
+      "name": "Axe_Idle.animation",
+      "userData": {
+        "gltfIndex": 4,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "d5c35": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@d5c35",
+      "displayName": "",
+      "id": "d5c35",
+      "name": "Axe_Attack_L.animation",
+      "userData": {
+        "gltfIndex": 5,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.2666666805744171
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "5a639": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@5a639",
+      "displayName": "",
+      "id": "5a639",
+      "name": "Axe_Attack_R.animation",
+      "userData": {
+        "gltfIndex": 6,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.2666666805744171
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "d3609": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@d3609",
+      "displayName": "",
+      "id": "d3609",
+      "name": "Hammer_Idle.animation",
+      "userData": {
+        "gltfIndex": 7,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1c01a": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@1c01a",
+      "displayName": "",
+      "id": "1c01a",
+      "name": "Hammer_Attack.animation",
+      "userData": {
+        "gltfIndex": 8,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "668f9": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@668f9",
+      "displayName": "",
+      "id": "668f9",
+      "name": "Cannon_Attack_Foucs.animation",
+      "userData": {
+        "gltfIndex": 9,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.5
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "ee043": {
+      "importer": "gltf-animation",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@ee043",
+      "displayName": "",
+      "id": "ee043",
+      "name": "Axe_Attack_Foucs.animation",
+      "userData": {
+        "gltfIndex": 10,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.5
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 34
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9a9bb": {
+      "importer": "texture",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@9a9bb",
+      "displayName": "",
+      "id": "9a9bb",
+      "name": "Map #50.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/role/prince/Prince.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "af548": {
+      "importer": "gltf-material",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@af548",
+      "displayName": "",
+      "id": "af548",
+      "name": "Material #1993693.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d071": {
+      "importer": "gltf-scene",
+      "uuid": "abf507c9-e89c-4964-b471-0596c91f18c2@8d071",
+      "displayName": "",
+      "id": "8d071",
+      "name": "Prince.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #50",
+        "uri": "db://assets/game/res/fbx/role/prince/Prince.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Cannon_Idle",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Cannon_Idle",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Cannon_Attack",
+        "duration": 0.10000000149011612,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Cannon_Attack",
+            "from": 0,
+            "to": 0.10000000149011612,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Aim_Idle",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Aim_Idle",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Aim_Attack",
+        "duration": 0.10000000149011612,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Aim_Attack",
+            "from": 0,
+            "to": 0.10000000149011612,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Axe_Idle",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Axe_Idle",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Axe_Attack_L",
+        "duration": 0.2666666805744171,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Axe_Attack_L",
+            "from": 0,
+            "to": 0.2666666805744171,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Axe_Attack_R",
+        "duration": 0.2666666805744171,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Axe_Attack_R",
+            "from": 0,
+            "to": 0.2666666805744171,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Hammer_Idle",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hammer_Idle",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Hammer_Attack",
+        "duration": 0.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hammer_Attack",
+            "from": 0,
+            "to": 0.5,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Cannon_Attack_Foucs",
+        "duration": 2.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Cannon_Attack_Foucs",
+            "from": 0,
+            "to": 2.5,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Axe_Attack_Foucs",
+        "duration": 2.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Axe_Attack_Foucs",
+            "from": 0,
+            "to": 2.5,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "abf507c9-e89c-4964-b471-0596c91f18c2@8d071",
+    "assetFinder": {
+      "meshes": [
+        "abf507c9-e89c-4964-b471-0596c91f18c2@c6160"
+      ],
+      "skeletons": [
+        "abf507c9-e89c-4964-b471-0596c91f18c2@438fe"
+      ],
+      "textures": [
+        "abf507c9-e89c-4964-b471-0596c91f18c2@9a9bb"
+      ],
+      "materials": [
+        "abf507c9-e89c-4964-b471-0596c91f18c2@af548"
+      ],
+      "scenes": [
+        "abf507c9-e89c-4964-b471-0596c91f18c2@8d071"
+      ]
+    },
+    "tangents": 1,
+    "normals": 0,
+    "disableMeshSplit": true
+  }
+}

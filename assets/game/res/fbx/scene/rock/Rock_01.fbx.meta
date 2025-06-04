@@ -1,0 +1,172 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "608321a1-d778-4de3-97e4-86e1f92f9137",
+  "files": [],
+  "subMetas": {
+    "af529": {
+      "importer": "gltf-mesh",
+      "uuid": "608321a1-d778-4de3-97e4-86e1f92f9137@af529",
+      "displayName": "",
+      "id": "af529",
+      "name": "Object002.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f713f": {
+      "importer": "gltf-embeded-image",
+      "uuid": "608321a1-d778-4de3-97e4-86e1f92f9137@f713f",
+      "displayName": "",
+      "id": "f713f",
+      "name": "Map #25.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "bac6d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "608321a1-d778-4de3-97e4-86e1f92f9137@bac6d",
+      "displayName": "",
+      "id": "bac6d",
+      "name": "Map #26.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "c21b7": {
+      "importer": "texture",
+      "uuid": "608321a1-d778-4de3-97e4-86e1f92f9137@c21b7",
+      "displayName": "",
+      "id": "c21b7",
+      "name": "Map #25.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "608321a1-d778-4de3-97e4-86e1f92f9137@f713f"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4600c": {
+      "importer": "texture",
+      "uuid": "608321a1-d778-4de3-97e4-86e1f92f9137@4600c",
+      "displayName": "",
+      "id": "4600c",
+      "name": "Map #26.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "608321a1-d778-4de3-97e4-86e1f92f9137@bac6d"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5227b": {
+      "importer": "gltf-material",
+      "uuid": "608321a1-d778-4de3-97e4-86e1f92f9137@5227b",
+      "displayName": "",
+      "id": "5227b",
+      "name": "Material #14.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1bbdb": {
+      "importer": "gltf-scene",
+      "uuid": "608321a1-d778-4de3-97e4-86e1f92f9137@1bbdb",
+      "displayName": "",
+      "id": "1bbdb",
+      "name": "Rock_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #25",
+        "uri": "608321a1-d778-4de3-97e4-86e1f92f9137@f713f"
+      },
+      {
+        "name": "Map #26",
+        "uri": "608321a1-d778-4de3-97e4-86e1f92f9137@bac6d"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "608321a1-d778-4de3-97e4-86e1f92f9137@1bbdb",
+    "assetFinder": {
+      "meshes": [
+        "608321a1-d778-4de3-97e4-86e1f92f9137@af529"
+      ],
+      "skeletons": [],
+      "textures": [
+        "608321a1-d778-4de3-97e4-86e1f92f9137@c21b7",
+        "608321a1-d778-4de3-97e4-86e1f92f9137@4600c"
+      ],
+      "materials": [
+        "608321a1-d778-4de3-97e4-86e1f92f9137@5227b"
+      ],
+      "scenes": [
+        "608321a1-d778-4de3-97e4-86e1f92f9137@1bbdb"
+      ]
+    },
+    "normals": 0,
+    "tangents": 1
+  }
+}

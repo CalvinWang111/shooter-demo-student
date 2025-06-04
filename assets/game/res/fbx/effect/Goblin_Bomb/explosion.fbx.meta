@@ -1,0 +1,513 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "84082b4f-3520-44a7-b777-e173e58924f1",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c0964": {
+      "importer": "gltf-mesh",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@c0964",
+      "displayName": "",
+      "id": "c0964",
+      "name": "Bomb_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b064": {
+      "importer": "gltf-animation",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@4b064",
+      "displayName": "",
+      "id": "4b064",
+      "name": "Explosion.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 28
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f8008": {
+      "importer": "texture",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@f8008",
+      "displayName": "",
+      "id": "f8008",
+      "name": "Map #4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/effect/Goblin_Bomb/clouds.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1da29": {
+      "importer": "texture",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@1da29",
+      "displayName": "",
+      "id": "1da29",
+      "name": "Map #2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/effect/Goblin_Bomb/FX_Smoke_R01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b9e5": {
+      "importer": "texture",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@6b9e5",
+      "displayName": "",
+      "id": "6b9e5",
+      "name": "Map #3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/effect/Goblin_Bomb/FX_Smoke_R01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f3416": {
+      "importer": "texture",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@f3416",
+      "displayName": "",
+      "id": "f3416",
+      "name": "Map #5.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/effect/Goblin_Bomb/SpotLight.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1fbcb": {
+      "importer": "gltf-material",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@1fbcb",
+      "displayName": "",
+      "id": "1fbcb",
+      "name": "Material #28.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c28f0": {
+      "importer": "gltf-material",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@c28f0",
+      "displayName": "",
+      "id": "c28f0",
+      "name": "Material #26.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ff75": {
+      "importer": "gltf-material",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@7ff75",
+      "displayName": "",
+      "id": "7ff75",
+      "name": "Material #27.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8e342": {
+      "importer": "gltf-material",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@8e342",
+      "displayName": "",
+      "id": "8e342",
+      "name": "Material #29.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9a25e": {
+      "importer": "gltf-scene",
+      "uuid": "84082b4f-3520-44a7-b777-e173e58924f1@9a25e",
+      "displayName": "",
+      "id": "9a25e",
+      "name": "explosion.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #4",
+        "uri": "db://assets/game/res/fbx/effect/Goblin_Bomb/clouds.png"
+      },
+      {
+        "name": "Map #2",
+        "uri": "db://assets/game/res/fbx/effect/Goblin_Bomb/FX_Smoke_R01.png"
+      },
+      {
+        "name": "Map #3",
+        "uri": "db://assets/game/res/fbx/effect/Goblin_Bomb/FX_Smoke_R01.png"
+      },
+      {
+        "name": "Map #5",
+        "uri": "db://assets/game/res/fbx/effect/Goblin_Bomb/SpotLight.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Explosion",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Explosion",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "84082b4f-3520-44a7-b777-e173e58924f1@9a25e",
+    "assetFinder": {
+      "meshes": [
+        "84082b4f-3520-44a7-b777-e173e58924f1@c0964"
+      ],
+      "skeletons": [
+        "84082b4f-3520-44a7-b777-e173e58924f1@438fe"
+      ],
+      "textures": [
+        "84082b4f-3520-44a7-b777-e173e58924f1@f8008",
+        "84082b4f-3520-44a7-b777-e173e58924f1@1da29",
+        "84082b4f-3520-44a7-b777-e173e58924f1@6b9e5",
+        "84082b4f-3520-44a7-b777-e173e58924f1@f3416"
+      ],
+      "materials": [
+        "84082b4f-3520-44a7-b777-e173e58924f1@1fbcb",
+        "84082b4f-3520-44a7-b777-e173e58924f1@c28f0",
+        "84082b4f-3520-44a7-b777-e173e58924f1@7ff75",
+        "84082b4f-3520-44a7-b777-e173e58924f1@8e342"
+      ],
+      "scenes": [
+        "84082b4f-3520-44a7-b777-e173e58924f1@9a25e"
+      ]
+    },
+    "materials": {
+      "84082b4f-3520-44a7-b777-e173e58924f1@c28f0": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "1232dca6-196f-493c-88a1-b2deba8a7f70",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            },
+            "mainTexture": {
+              "__uuid__": "9a5736a2-7fb1-443c-bf77-d1cb3b477896@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          }
+        ]
+      },
+      "84082b4f-3520-44a7-b777-e173e58924f1@7ff75": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "1232dca6-196f-493c-88a1-b2deba8a7f70",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            },
+            "mainTexture": {
+              "__uuid__": "09e571dc-0e9c-49ee-a57d-2e83f478582f@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          }
+        ]
+      },
+      "84082b4f-3520-44a7-b777-e173e58924f1@1fbcb": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "52deaca6-eb63-47c1-b451-7d79f779c162",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "1",
+        "_defines": [
+          {
+            "USE_TEXTURE": true,
+            "USE_RIM_LIGHT": true,
+            "USE_DISSOVEFUNC": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "7382e99f-baad-401d-968e-3770ed2715af@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 3,
+              "y": 3,
+              "z": 0,
+              "w": 0
+            },
+            "rimColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 163,
+              "b": 0,
+              "a": 255
+            },
+            "rimExp": 10,
+            "rimScale": 100,
+            "tintColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 85,
+              "b": 85,
+              "a": 207
+            },
+            "noiseTintColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 51,
+              "b": 0,
+              "a": 73
+            },
+            "noiseTexture": {
+              "__uuid__": "364c3d1a-7ae9-463a-adbe-1620c3c42551@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "noiseEdgeWidth_Max": 0.05,
+            "noiseEdgeWidth_Min": 0.01,
+            "dissolveThreshold": 1
+          }
+        ]
+      },
+      "84082b4f-3520-44a7-b777-e173e58924f1@8e342": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "1232dca6-196f-493c-88a1-b2deba8a7f70",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 0.3,
+              "y": 1.5,
+              "z": 0,
+              "w": 0
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 202,
+              "g": 202,
+              "b": 202,
+              "a": 255
+            },
+            "mainTexture": {
+              "__uuid__": "09e571dc-0e9c-49ee-a57d-2e83f478582f@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          }
+        ]
+      }
+    },
+    "tangents": 1,
+    "normals": 0
+  }
+}

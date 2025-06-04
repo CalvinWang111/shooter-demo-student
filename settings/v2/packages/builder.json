@@ -1,0 +1,48 @@
+{
+  "splash-setting": {
+    "totalTime": 500,
+    "displayRatio": 0.4,
+    "clearColor": {
+      "x": 0.8784313725490196,
+      "y": 0.8784313725490196,
+      "z": 0.8784313725490196,
+      "w": 1
+    }
+  },
+  "textureCompressConfig": {
+    "userPreset": {
+      "dcu70QEZpPg6qqlIAuUuZe": {
+        "name": "png-webp",
+        "options": {
+          "web": {
+            "png": {
+              "quality": 100
+            },
+            "webp": {
+              "quality": 90
+            },
+            "astc_4x4": {
+              "quality": "thorough"
+            }
+          }
+        }
+      },
+      "ffuRZ/80tBapG8kWh96Qiz": {
+        "name": "png-webp-low",
+        "options": {
+          "web": {
+            "png": {
+              "quality": 80
+            },
+            "webp": {
+              "quality": 75
+            },
+            "astc_6x6": {
+              "quality": "thorough"
+            }
+          }
+        }
+      }
+    }
+  }
+}

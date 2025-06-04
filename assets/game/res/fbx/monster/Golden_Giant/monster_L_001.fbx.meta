@@ -1,0 +1,725 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-10.cconb",
+    "__original-animation-11.cconb",
+    "__original-animation-12.cconb",
+    "__original-animation-13.cconb",
+    "__original-animation-14.cconb",
+    "__original-animation-15.cconb",
+    "__original-animation-2.cconb",
+    "__original-animation-3.cconb",
+    "__original-animation-4.cconb",
+    "__original-animation-5.cconb",
+    "__original-animation-6.cconb",
+    "__original-animation-7.cconb",
+    "__original-animation-8.cconb",
+    "__original-animation-9.cconb"
+  ],
+  "subMetas": {
+    "16037": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@16037",
+      "displayName": "",
+      "id": "16037",
+      "name": "BossAttack.animation",
+      "userData": {
+        "gltfIndex": 11,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.633333444595337
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "42243": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@42243",
+      "displayName": "",
+      "id": "42243",
+      "name": "BossHurt.animation",
+      "userData": {
+        "gltfIndex": 12,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.46666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "77ec7": {
+      "importer": "gltf-mesh",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@77ec7",
+      "displayName": "",
+      "id": "77ec7",
+      "name": "Object024.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac3f0": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@ac3f0",
+      "displayName": "",
+      "id": "ac3f0",
+      "name": "idle01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.6666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2c581": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@2c581",
+      "displayName": "",
+      "id": "2c581",
+      "name": "idle02.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.7666666507720947
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f83c3": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@f83c3",
+      "displayName": "",
+      "id": "f83c3",
+      "name": "up01.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.36666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "0dcb8": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@0dcb8",
+      "displayName": "",
+      "id": "0dcb8",
+      "name": "up02.animation",
+      "userData": {
+        "gltfIndex": 3,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.800000011920929
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "803f9": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@803f9",
+      "displayName": "",
+      "id": "803f9",
+      "name": "up_close.animation",
+      "userData": {
+        "gltfIndex": 4,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4333333373069763
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "79e35": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@79e35",
+      "displayName": "",
+      "id": "79e35",
+      "name": "hit.animation",
+      "userData": {
+        "gltfIndex": 5,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4000000059604645
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b1515": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@b1515",
+      "displayName": "",
+      "id": "b1515",
+      "name": "super_hit.animation",
+      "userData": {
+        "gltfIndex": 6,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2ecf8": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@2ecf8",
+      "displayName": "",
+      "id": "2ecf8",
+      "name": "up_hit.animation",
+      "userData": {
+        "gltfIndex": 7,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4000000059604645
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "84ced": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@84ced",
+      "displayName": "",
+      "id": "84ced",
+      "name": "idle03.animation",
+      "userData": {
+        "gltfIndex": 8,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.6666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "67d12": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@67d12",
+      "displayName": "",
+      "id": "67d12",
+      "name": "BossIngame.animation",
+      "userData": {
+        "gltfIndex": 9,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "549c5": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@549c5",
+      "displayName": "",
+      "id": "549c5",
+      "name": "BossIdle01.animation",
+      "userData": {
+        "gltfIndex": 10,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.6666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a6d70": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@a6d70",
+      "displayName": "",
+      "id": "a6d70",
+      "name": "BossIdle02.animation",
+      "userData": {
+        "gltfIndex": 13,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.5
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "734c6": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@734c6",
+      "displayName": "",
+      "id": "734c6",
+      "name": "BossIdle03.animation",
+      "userData": {
+        "gltfIndex": 14,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "25b66": {
+      "importer": "gltf-animation",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@25b66",
+      "displayName": "",
+      "id": "25b66",
+      "name": "BossDead.animation",
+      "userData": {
+        "gltfIndex": 15,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.6666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 44
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0427": {
+      "importer": "texture",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@a0427",
+      "displayName": "",
+      "id": "a0427",
+      "name": "Map #8.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/monster/Golden_Giant/monster_L_001_02.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3cdc1": {
+      "importer": "gltf-material",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@3cdc1",
+      "displayName": "",
+      "id": "3cdc1",
+      "name": "Material #604.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2fdcd": {
+      "importer": "gltf-scene",
+      "uuid": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@2fdcd",
+      "displayName": "",
+      "id": "2fdcd",
+      "name": "monster_L_001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #8",
+        "uri": "db://assets/game/res/fbx/monster/Golden_Giant/monster_L_001_02.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "idle01",
+        "duration": 1.6666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle01",
+            "from": 0,
+            "to": 1.6666666269302368,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "idle02",
+        "duration": 1.7666666507720947,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle02",
+            "from": 0,
+            "to": 1.7666666507720947,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "up01",
+        "duration": 0.36666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "up01",
+            "from": 0,
+            "to": 0.36666667461395264,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "up02",
+        "duration": 0.800000011920929,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "up02",
+            "from": 0,
+            "to": 0.800000011920929,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "up_close",
+        "duration": 0.4333333373069763,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "up_close",
+            "from": 0,
+            "to": 0.4333333373069763,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "hit",
+        "duration": 0.4000000059604645,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "hit",
+            "from": 0,
+            "to": 0.4000000059604645,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "super_hit",
+        "duration": 0.6666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "super_hit",
+            "from": 0,
+            "to": 0.6666666865348816,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "up_hit",
+        "duration": 0.4000000059604645,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "up_hit",
+            "from": 0,
+            "to": 0.4000000059604645,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "idle03",
+        "duration": 2.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle03",
+            "from": 0,
+            "to": 2.6666667461395264,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "BossIngame",
+        "duration": 2.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "BossIngame",
+            "from": 0,
+            "to": 2.3333332538604736,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "BossIdle01",
+        "duration": 1.6666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "BossIdle01",
+            "from": 0,
+            "to": 1.6666666269302368,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "BossAttack",
+        "duration": 2.633333444595337,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "BossAttack",
+            "from": 0,
+            "to": 2.633333444595337,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "BossHurt",
+        "duration": 0.46666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "BossHurt",
+            "from": 0,
+            "to": 0.46666666865348816,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "BossIdle02",
+        "duration": 1.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "BossIdle02",
+            "from": 0,
+            "to": 1.5,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "BossIdle03",
+        "duration": 3,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "BossIdle03",
+            "from": 0,
+            "to": 3,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "BossDead",
+        "duration": 3.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "BossDead",
+            "from": 0,
+            "to": 3.6666667461395264,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@2fdcd",
+    "assetFinder": {
+      "meshes": [
+        "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@77ec7"
+      ],
+      "skeletons": [
+        "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@438fe"
+      ],
+      "textures": [
+        "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@a0427"
+      ],
+      "materials": [
+        "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@3cdc1"
+      ],
+      "scenes": [
+        "1b1dc68f-2fd5-45dc-b9bc-f00bda370bc8@2fdcd"
+      ]
+    },
+    "tangents": 1,
+    "normals": 0,
+    "disableMeshSplit": true
+  }
+}

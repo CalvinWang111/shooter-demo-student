@@ -1,0 +1,169 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "7df16": {
+      "importer": "gltf-mesh",
+      "uuid": "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@7df16",
+      "displayName": "",
+      "id": "7df16",
+      "name": "Cannon_01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "99f57": {
+      "importer": "gltf-animation",
+      "uuid": "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@99f57",
+      "displayName": "",
+      "id": "99f57",
+      "name": "CannonLv_01attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.2666666805744171
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 2
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eb2d4": {
+      "importer": "texture",
+      "uuid": "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@eb2d4",
+      "displayName": "",
+      "id": "eb2d4",
+      "name": "Map #70.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/cannon/cannonLv_01/ConnonLv_01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "163e8": {
+      "importer": "gltf-material",
+      "uuid": "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@163e8",
+      "displayName": "",
+      "id": "163e8",
+      "name": "Material #1993714.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6e437": {
+      "importer": "gltf-scene",
+      "uuid": "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@6e437",
+      "displayName": "",
+      "id": "6e437",
+      "name": "CannonLv_01attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #70",
+        "uri": "db://assets/game/res/fbx/cannon/cannonLv_01/ConnonLv_01.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CannonLv_01attack",
+        "duration": 0.2666666805744171,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "CannonLv_01attack",
+            "from": 0,
+            "to": 0.2666666805744171,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@6e437",
+    "assetFinder": {
+      "meshes": [
+        "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@7df16"
+      ],
+      "skeletons": [
+        "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@438fe"
+      ],
+      "textures": [
+        "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@eb2d4"
+      ],
+      "materials": [
+        "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@163e8"
+      ],
+      "scenes": [
+        "62945ceb-e9dd-42c2-a4fa-0e8c73aa6f51@6e437"
+      ]
+    },
+    "tangents": 1,
+    "normals": 0
+  }
+}

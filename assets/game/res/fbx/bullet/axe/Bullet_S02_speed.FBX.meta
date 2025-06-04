@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5950b5ec-e826-4239-8f34-56d1d0152d97",
+  "files": [],
+  "subMetas": {
+    "c6160": {
+      "importer": "gltf-mesh",
+      "uuid": "5950b5ec-e826-4239-8f34-56d1d0152d97@c6160",
+      "displayName": "",
+      "id": "c6160",
+      "name": "Cylinder001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "692aa": {
+      "importer": "gltf-embeded-image",
+      "uuid": "5950b5ec-e826-4239-8f34-56d1d0152d97@692aa",
+      "displayName": "",
+      "id": "692aa",
+      "name": "Map #54.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "320af": {
+      "importer": "texture",
+      "uuid": "5950b5ec-e826-4239-8f34-56d1d0152d97@320af",
+      "displayName": "",
+      "id": "320af",
+      "name": "Map #54.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5950b5ec-e826-4239-8f34-56d1d0152d97@692aa"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d630": {
+      "importer": "gltf-material",
+      "uuid": "5950b5ec-e826-4239-8f34-56d1d0152d97@9d630",
+      "displayName": "",
+      "id": "9d630",
+      "name": "Material #464.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "99b42": {
+      "importer": "gltf-scene",
+      "uuid": "5950b5ec-e826-4239-8f34-56d1d0152d97@99b42",
+      "displayName": "",
+      "id": "99b42",
+      "name": "Bullet_S02_speed.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #54",
+        "uri": "5950b5ec-e826-4239-8f34-56d1d0152d97@692aa"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "5950b5ec-e826-4239-8f34-56d1d0152d97@99b42",
+    "assetFinder": {
+      "meshes": [
+        "5950b5ec-e826-4239-8f34-56d1d0152d97@c6160"
+      ],
+      "skeletons": [],
+      "textures": [
+        "5950b5ec-e826-4239-8f34-56d1d0152d97@320af"
+      ],
+      "materials": [
+        "5950b5ec-e826-4239-8f34-56d1d0152d97@9d630"
+      ],
+      "scenes": [
+        "5950b5ec-e826-4239-8f34-56d1d0152d97@99b42"
+      ]
+    },
+    "normals": 0,
+    "tangents": 1
+  }
+}

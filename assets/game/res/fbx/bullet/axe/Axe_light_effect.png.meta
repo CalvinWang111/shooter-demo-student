@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "06d9c7a0-dedc-481d-9aa5-89c43d54719d",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "06d9c7a0-dedc-481d-9aa5-89c43d54719d@6c48a",
+      "displayName": "Axe_light_effect",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "06d9c7a0-dedc-481d-9aa5-89c43d54719d",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false,
+    "redirect": "06d9c7a0-dedc-481d-9aa5-89c43d54719d@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "dcu70QEZpPg6qqlIAuUuZe"
+    }
+  }
+}

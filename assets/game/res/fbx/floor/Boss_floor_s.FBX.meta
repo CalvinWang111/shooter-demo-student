@@ -1,0 +1,110 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5bad4968-fc8c-4089-b163-14e5957a0ab1",
+  "files": [],
+  "subMetas": {
+    "01491": {
+      "importer": "gltf-mesh",
+      "uuid": "5bad4968-fc8c-4089-b163-14e5957a0ab1@01491",
+      "displayName": "",
+      "id": "01491",
+      "name": "Boss_floor_s.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fddea": {
+      "importer": "texture",
+      "uuid": "5bad4968-fc8c-4089-b163-14e5957a0ab1@fddea",
+      "displayName": "",
+      "id": "fddea",
+      "name": "Map #73.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/floor/island_floor.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "be90b": {
+      "importer": "gltf-material",
+      "uuid": "5bad4968-fc8c-4089-b163-14e5957a0ab1@be90b",
+      "displayName": "",
+      "id": "be90b",
+      "name": "Material #79.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "63fd6": {
+      "importer": "gltf-scene",
+      "uuid": "5bad4968-fc8c-4089-b163-14e5957a0ab1@63fd6",
+      "displayName": "",
+      "id": "63fd6",
+      "name": "Boss_floor_s.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #73",
+        "uri": "db://assets/game/res/fbx/floor/island_floor.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "5bad4968-fc8c-4089-b163-14e5957a0ab1@63fd6",
+    "assetFinder": {
+      "meshes": [
+        "5bad4968-fc8c-4089-b163-14e5957a0ab1@01491"
+      ],
+      "skeletons": [],
+      "textures": [
+        "5bad4968-fc8c-4089-b163-14e5957a0ab1@fddea"
+      ],
+      "materials": [
+        "5bad4968-fc8c-4089-b163-14e5957a0ab1@be90b"
+      ],
+      "scenes": [
+        "5bad4968-fc8c-4089-b163-14e5957a0ab1@63fd6"
+      ]
+    },
+    "tangents": 1,
+    "normals": 0
+  }
+}

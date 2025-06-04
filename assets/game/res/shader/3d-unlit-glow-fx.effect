@@ -1,0 +1,118 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      properties: &props
+        mainTexture:    { value: grey }
+        tilingOffset:   { value: [1, 1, 0, 0] }
+        glowTexture:    { value: white }
+        diffuseTexture: { value: white }
+        mainColor:      { value: [1, 1, 1, 1], linear: true, editor: { type: color } }
+        mixingColor:    { value: [2.1, 0.1, 0.1, 1.0] }
+        bleaching:      { value: 0.0 }
+        glowing:        { value: 0.0 }
+        offset:         { value: [0, 0] }
+        tiling:         { value: 1.0 }
+      migrations: &migs
+        properties:
+          mainColor:    { formerlySerializedAs: color }
+}%
+
+CCProgram unlit-vs %{
+  precision highp float;
+  #include <legacy/input-standard>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/decode-base>
+  #include <legacy/local-batch>
+
+  #if USE_VERTEX_COLOR
+    in lowp vec4 a_color;
+    out lowp vec4 v_color;
+  #endif
+
+  #if USE_TEXTURE
+    out vec2 v_uv;
+    uniform TexCoords {
+      vec4 tilingOffset;
+    };
+  #endif
+
+  vec4 vert () {
+    StandardVertInput In; 
+    CCVertInput(In);
+
+    mat4 matWorld;
+    CCGetWorldMatrix(matWorld);
+
+    #if USE_TEXTURE
+      v_uv = a_texCoord * tilingOffset.xy + tilingOffset.zw;
+    #endif
+
+    #if USE_VERTEX_COLOR
+      v_color = a_color;
+    #endif
+
+    return cc_matProj * (cc_matView * matWorld) * In.position;
+  }
+}%
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <legacy/output-standard>
+
+  #if USE_ALPHA_TEST
+    #pragma define-meta ALPHA_TEST_CHANNEL options([a, r, g, b])
+  #endif
+
+  #if USE_DIFFUSE_TEXTURE
+    uniform sampler2D glowTexture;
+    uniform sampler2D diffuseTexture;
+  #endif
+
+  #if USE_TEXTURE
+    in vec2 v_uv;
+    uniform sampler2D mainTexture;
+  #endif
+
+  uniform Constant {
+    vec4 mainColor;
+  };
+
+  uniform VALUE {
+    vec4 mixingColor;
+    float bleaching;
+    float glowing;
+    vec2 offset;
+    float tiling;
+  };
+
+  #if USE_VERTEX_COLOR
+    in lowp vec4 v_color;
+  #endif
+
+  vec4 frag () {
+    vec4 o = mainColor;
+    vec4 color = mainColor;
+
+    #if USE_TEXTURE
+      color = texture(glowTexture, (v_uv + offset) * tiling);
+      o *= texture(diffuseTexture, v_uv);
+    #endif
+    
+    o.rgb = o.rgb + (color.rgb * glowing);
+
+    #if USE_VERTEX_COLOR
+      o.rgb *= SRGBToLinear(v_color.rgb);  //use linear
+      o.a *= v_color.a;
+    #endif
+
+    if (bleaching > 0.0) {  // uniform 屬於靜態分支
+      color.rgb = mix(color.rgb, mixingColor.rgb, bleaching);
+    }
+    
+    return o;
+  }
+}%

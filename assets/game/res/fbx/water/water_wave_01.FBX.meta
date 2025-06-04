@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b",
+  "files": [],
+  "subMetas": {
+    "2c3f2": {
+      "importer": "gltf-mesh",
+      "uuid": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@2c3f2",
+      "displayName": "",
+      "id": "2c3f2",
+      "name": "Plane028.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6df82": {
+      "importer": "gltf-embeded-image",
+      "uuid": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@6df82",
+      "displayName": "",
+      "id": "6df82",
+      "name": "Map #24.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "cae2f": {
+      "importer": "texture",
+      "uuid": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@cae2f",
+      "displayName": "",
+      "id": "cae2f",
+      "name": "Map #24.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@6df82"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c511c": {
+      "importer": "gltf-material",
+      "uuid": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@c511c",
+      "displayName": "",
+      "id": "c511c",
+      "name": "19 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d160": {
+      "importer": "gltf-scene",
+      "uuid": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@7d160",
+      "displayName": "",
+      "id": "7d160",
+      "name": "water_wave_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #24",
+        "uri": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@6df82"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@7d160",
+    "assetFinder": {
+      "meshes": [
+        "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@2c3f2"
+      ],
+      "skeletons": [],
+      "textures": [
+        "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@cae2f"
+      ],
+      "materials": [
+        "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@c511c"
+      ],
+      "scenes": [
+        "16d1c2b7-9a0e-4e66-83b8-7436de18aa2b@7d160"
+      ]
+    },
+    "normals": 0,
+    "tangents": 1
+  }
+}

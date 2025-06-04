@@ -1,0 +1,110 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd",
+  "files": [],
+  "subMetas": {
+    "2b8d2": {
+      "importer": "gltf-mesh",
+      "uuid": "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@2b8d2",
+      "displayName": "",
+      "id": "2b8d2",
+      "name": "Object004.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2c8ed": {
+      "importer": "texture",
+      "uuid": "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@2c8ed",
+      "displayName": "",
+      "id": "2c8ed",
+      "name": "Map #66.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/bullet/axe/Axe.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8bf0b": {
+      "importer": "gltf-material",
+      "uuid": "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@8bf0b",
+      "displayName": "",
+      "id": "8bf0b",
+      "name": "Material #513.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2d67f": {
+      "importer": "gltf-scene",
+      "uuid": "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@2d67f",
+      "displayName": "",
+      "id": "2d67f",
+      "name": "Axe.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #66",
+        "uri": "db://assets/game/res/fbx/bullet/axe/Axe.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@2d67f",
+    "assetFinder": {
+      "meshes": [
+        "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@2b8d2"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@2c8ed"
+      ],
+      "materials": [
+        "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@8bf0b"
+      ],
+      "scenes": [
+        "7e55c3c8-6d1e-48d5-a1f8-a0542f7dfcfd@2d67f"
+      ]
+    },
+    "tangents": 1,
+    "normals": 0
+  }
+}

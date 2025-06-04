@@ -1,0 +1,59 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Create .nojekyll file
+        run: touch build/web-mobile/.nojekyll
+
+      - name: Add base href to index.html
+        run: |
+          sed -i '/<head>/a \  <base href="./">' build/web-mobile/index.html
+
+      - name: Create CORS configuration
+        run: |
+          echo '{
+            "headers": [
+              {
+                "source": "**/*",
+                "headers": [
+                  {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                  },
+                  {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000"
+                  }
+                ]
+              }
+            ]
+          }' > build/web-mobile/_headers
+
+      - name: List build contents
+        run: |
+          echo "=== Build directory contents ==="
+          ls -R build/web-mobile
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/web-mobile
+          publish_branch: gh-pages
+          commit_message: "Deploy: ${{ github.event.head_commit.message }}"
+          force_orphan: true

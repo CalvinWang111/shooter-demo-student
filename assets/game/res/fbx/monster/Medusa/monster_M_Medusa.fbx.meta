@@ -1,0 +1,540 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-10.cconb",
+    "__original-animation-2.cconb",
+    "__original-animation-3.cconb",
+    "__original-animation-4.cconb",
+    "__original-animation-5.cconb",
+    "__original-animation-6.cconb",
+    "__original-animation-7.cconb",
+    "__original-animation-8.cconb",
+    "__original-animation-9.cconb"
+  ],
+  "subMetas": {
+    "743bc": {
+      "importer": "gltf-mesh",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@743bc",
+      "displayName": "",
+      "id": "743bc",
+      "name": "monster_M_001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac3f0": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@ac3f0",
+      "displayName": "",
+      "id": "ac3f0",
+      "name": "idle01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.066666603088379
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2c581": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@2c581",
+      "displayName": "",
+      "id": "2c581",
+      "name": "idle02.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "84ced": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@84ced",
+      "displayName": "",
+      "id": "84ced",
+      "name": "idle03.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.5
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "79e35": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@79e35",
+      "displayName": "",
+      "id": "79e35",
+      "name": "hit.animation",
+      "userData": {
+        "gltfIndex": 3,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4000000059604645
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b1515": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@b1515",
+      "displayName": "",
+      "id": "b1515",
+      "name": "super_hit.animation",
+      "userData": {
+        "gltfIndex": 4,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4000000059604645
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f83c3": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@f83c3",
+      "displayName": "",
+      "id": "f83c3",
+      "name": "up01.animation",
+      "userData": {
+        "gltfIndex": 5,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.36666667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "0dcb8": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@0dcb8",
+      "displayName": "",
+      "id": "0dcb8",
+      "name": "up02.animation",
+      "userData": {
+        "gltfIndex": 6,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9333333373069763
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2ecf8": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@2ecf8",
+      "displayName": "",
+      "id": "2ecf8",
+      "name": "up_hit.animation",
+      "userData": {
+        "gltfIndex": 7,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4000000059604645
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "803f9": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@803f9",
+      "displayName": "",
+      "id": "803f9",
+      "name": "up_close.animation",
+      "userData": {
+        "gltfIndex": 8,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7333333492279053
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a9790": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@a9790",
+      "displayName": "",
+      "id": "a9790",
+      "name": "ingame.animation",
+      "userData": {
+        "gltfIndex": 9,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.1666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "989ed": {
+      "importer": "gltf-animation",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@989ed",
+      "displayName": "",
+      "id": "989ed",
+      "name": "attack.animation",
+      "userData": {
+        "gltfIndex": 10,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4.333333492279053
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 53
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4958": {
+      "importer": "texture",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@d4958",
+      "displayName": "",
+      "id": "d4958",
+      "name": "Map #9.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/monster/Medusa/monster_M_Medusa.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "66c2c": {
+      "importer": "gltf-material",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@66c2c",
+      "displayName": "",
+      "id": "66c2c",
+      "name": "Material #150.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "38fcd": {
+      "importer": "gltf-scene",
+      "uuid": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@38fcd",
+      "displayName": "",
+      "id": "38fcd",
+      "name": "monster_M_Medusa.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #9",
+        "uri": "db://assets/game/res/fbx/monster/Medusa/monster_M_Medusa.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "idle01",
+        "duration": 2.066666603088379,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle01",
+            "from": 0,
+            "to": 2.066666603088379,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "idle02",
+        "duration": 3,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle02",
+            "from": 0,
+            "to": 3,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "idle03",
+        "duration": 3.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle03",
+            "from": 0,
+            "to": 3.5,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "hit",
+        "duration": 0.4000000059604645,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "hit",
+            "from": 0,
+            "to": 0.4000000059604645,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "super_hit",
+        "duration": 0.4000000059604645,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "super_hit",
+            "from": 0,
+            "to": 0.4000000059604645,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "up01",
+        "duration": 0.36666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "up01",
+            "from": 0,
+            "to": 0.36666667461395264,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "up02",
+        "duration": 0.9333333373069763,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "up02",
+            "from": 0,
+            "to": 0.9333333373069763,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "up_hit",
+        "duration": 0.4000000059604645,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "up_hit",
+            "from": 0,
+            "to": 0.4000000059604645,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "up_close",
+        "duration": 0.7333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "up_close",
+            "from": 0,
+            "to": 0.7333333492279053,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "ingame",
+        "duration": 1.1666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "ingame",
+            "from": 0,
+            "to": 1.1666666269302368,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "attack",
+        "duration": 4.333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack",
+            "from": 0,
+            "to": 4.333333492279053,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@38fcd",
+    "assetFinder": {
+      "meshes": [
+        "dddaca2f-1e53-4c2e-8838-fa75d3b74270@743bc"
+      ],
+      "skeletons": [
+        "dddaca2f-1e53-4c2e-8838-fa75d3b74270@438fe"
+      ],
+      "textures": [
+        "dddaca2f-1e53-4c2e-8838-fa75d3b74270@d4958"
+      ],
+      "materials": [
+        "dddaca2f-1e53-4c2e-8838-fa75d3b74270@66c2c"
+      ],
+      "scenes": [
+        "dddaca2f-1e53-4c2e-8838-fa75d3b74270@38fcd"
+      ]
+    },
+    "tangents": 1,
+    "normals": 0,
+    "disableMeshSplit": true
+  }
+}

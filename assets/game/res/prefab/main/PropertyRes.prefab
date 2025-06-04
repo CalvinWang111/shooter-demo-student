@@ -1,0 +1,167 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "PropertyRes",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "persistent": false,
+    "asyncLoadAssets": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PropertyRes",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_layer": 0,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "98a8ceZmqJH7rt2sZa1J+Uo",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 3
+    },
+    "queenCannonPrefab": {
+      "__uuid__": "4ee804ab-aec8-4f15-b425-32cdd01ac878",
+      "__expectedType__": "cc.Prefab"
+    },
+    "normalBulletPrefab": {
+      "__uuid__": "a49525f3-55a7-4eba-8538-0f122229eb99",
+      "__expectedType__": "cc.Prefab"
+    },
+    "axeBulletPrefab": {
+      "__uuid__": "5913d3e6-ba8f-4086-be75-f95b83ba6ed0",
+      "__expectedType__": "cc.Prefab"
+    },
+    "axeBulletTrackFxPrefab": {
+      "__uuid__": "77d02bd3-2638-4d29-939e-17b66c3c0bfc",
+      "__expectedType__": "cc.Prefab"
+    },
+    "axeModelPrefab": {
+      "__uuid__": "7c5e2a1d-db10-4095-b00d-9eb6f17a3cec",
+      "__expectedType__": "cc.Prefab"
+    },
+    "smallCoinPrefab": {
+      "__uuid__": "483df033-1f74-497a-a061-9a19be122263",
+      "__expectedType__": "cc.Prefab"
+    },
+    "bossCoinPrefab": {
+      "__uuid__": "d513d5a1-7b66-4f17-8f72-03adcf661bf8",
+      "__expectedType__": "cc.Prefab"
+    },
+    "winNumPrefab": {
+      "__uuid__": "0503a026-90a9-475b-bb6b-8f25c0155230",
+      "__expectedType__": "cc.Prefab"
+    },
+    "missTextPrefab": {
+      "__uuid__": "a80ee757-d7e2-4b46-9499-933b5d45240d",
+      "__expectedType__": "cc.Prefab"
+    },
+    "bossComingPrefab": {
+      "__uuid__": "41dcb2dd-4750-4db6-bd21-4d4d51025948",
+      "__expectedType__": "cc.Prefab"
+    },
+    "waterRipplePrefab": {
+      "__uuid__": "34b5219d-5fa0-49bf-971a-7c25cd726192",
+      "__expectedType__": "cc.Prefab"
+    },
+    "waterSplashPrefab": {
+      "__uuid__": "ccaada0d-921e-41fc-aebf-ccfeab6ac652",
+      "__expectedType__": "cc.Prefab"
+    },
+    "monsterPrefabs": [
+      {
+        "__uuid__": "f793d915-291c-4727-92b5-92e94f2bb832",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "f793d915-291c-4727-92b5-92e94f2bb832",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "2228a151-1d6a-4079-aaf2-f17397741790",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "d585bf69-d07e-4853-b323-8d24d3613826",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "e523005b-71cc-48ba-8c3c-29a857c73566",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "e00290de-af40-4fa5-a5df-6809f5385058",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "9bec5020-fc15-4157-a9ee-6e8f23f5b338",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "24f6709a-13b8-4859-a487-0453805f67c4",
+        "__expectedType__": "cc.Prefab"
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "8a7CzPfbdO5YgrDmKtAQjr"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "a6BxCH1ftPgKzWqOL9CaHW"
+  }
+]

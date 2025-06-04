@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "6562bca5-ca2f-4f8f-91bb-5640773fd890",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "6562bca5-ca2f-4f8f-91bb-5640773fd890@6c48a",
+      "displayName": "Queen",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6562bca5-ca2f-4f8f-91bb-5640773fd890",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false,
+    "redirect": "6562bca5-ca2f-4f8f-91bb-5640773fd890@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "dcu70QEZpPg6qqlIAuUuZe"
+    }
+  }
+}

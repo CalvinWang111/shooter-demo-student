@@ -1,0 +1,155 @@
+{
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "WALL"
+      },
+      {
+        "index": 2,
+        "name": "BULLET"
+      },
+      {
+        "index": 3,
+        "name": "MONSTER"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 4,
+      "2": 10,
+      "3": 4
+    }
+  },
+  "general": {
+    "designResolution": {
+      "width": 1136,
+      "fitHeight": true
+    }
+  },
+  "layer": [],
+  "custom_joint_texture_layouts": [
+    {
+      "name": "monster_SP_003",
+      "textureLength": 204,
+      "contents": [
+        {
+          "skeleton": "30a74694-87ac-4139-b26d-3fd8e5a2d545@438fe",
+          "clips": [
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@79e35",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@ac3f0",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@2c581",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@84ced",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@a9790",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@b1515",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@803f9",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@2ecf8",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@f83c3",
+            "30a74694-87ac-4139-b26d-3fd8e5a2d545@0dcb8"
+          ]
+        },
+        {
+          "skeleton": "",
+          "clips": []
+        }
+      ]
+    },
+    {
+      "name": "monster_M_002",
+      "textureLength": 216,
+      "contents": [
+        {
+          "skeleton": "fdf9b9f4-1315-4f15-ac0b-a502e561e248@438fe",
+          "clips": [
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@79e35",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@ac3f0",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@2c581",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@84ced",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@a9790",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@b1515",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@803f9",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@2ecf8",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@f83c3",
+            "fdf9b9f4-1315-4f15-ac0b-a502e561e248@0dcb8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "monster_M_003",
+      "textureLength": 276,
+      "contents": [
+        {
+          "skeleton": "6ee5dff9-227d-45fa-a395-81d17038d956@438fe",
+          "clips": [
+            "6ee5dff9-227d-45fa-a395-81d17038d956@2fd2b",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@79e35",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@ac3f0",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@2c581",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@84ced",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@a9790",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@b1515",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@803f9",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@2ecf8",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@f83c3",
+            "6ee5dff9-227d-45fa-a395-81d17038d956@0dcb8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "monster_M_Medusa",
+      "textureLength": 300,
+      "contents": [
+        {
+          "skeleton": "dddaca2f-1e53-4c2e-8838-fa75d3b74270@438fe",
+          "clips": [
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@989ed",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@79e35",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@ac3f0",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@2c581",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@84ced",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@a9790",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@b1515",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@803f9",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@2ecf8",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@f83c3",
+            "dddaca2f-1e53-4c2e-8838-fa75d3b74270@0dcb8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pertrifation_Magic",
+      "textureLength": 60,
+      "contents": [
+        {
+          "skeleton": "f740107a-5c73-46aa-9be3-dfa2594a2d7a@438fe",
+          "clips": [
+            "f740107a-5c73-46aa-9be3-dfa2594a2d7a@b5890"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "monster_S_004",
+      "textureLength": 192,
+      "contents": [
+        {
+          "skeleton": "a8f26615-8776-4c84-b59e-7d937c889961@438fe",
+          "clips": [
+            "a8f26615-8776-4c84-b59e-7d937c889961@79e35",
+            "a8f26615-8776-4c84-b59e-7d937c889961@ac3f0",
+            "a8f26615-8776-4c84-b59e-7d937c889961@2c581",
+            "a8f26615-8776-4c84-b59e-7d937c889961@a9790",
+            "a8f26615-8776-4c84-b59e-7d937c889961@b1515",
+            "a8f26615-8776-4c84-b59e-7d937c889961@803f9",
+            "a8f26615-8776-4c84-b59e-7d937c889961@2ecf8",
+            "a8f26615-8776-4c84-b59e-7d937c889961@f83c3",
+            "a8f26615-8776-4c84-b59e-7d937c889961@0dcb8"
+          ]
+        }
+      ]
+    }
+  ]
+}

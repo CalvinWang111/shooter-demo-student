@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3",
+  "files": [],
+  "subMetas": {
+    "c6160": {
+      "importer": "gltf-mesh",
+      "uuid": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@c6160",
+      "displayName": "",
+      "id": "c6160",
+      "name": "Cylinder001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2364": {
+      "importer": "gltf-embeded-image",
+      "uuid": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@a2364",
+      "displayName": "",
+      "id": "a2364",
+      "name": "Map #1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "6e70c": {
+      "importer": "texture",
+      "uuid": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@6e70c",
+      "displayName": "",
+      "id": "6e70c",
+      "name": "Map #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@a2364"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b1faf": {
+      "importer": "gltf-material",
+      "uuid": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@b1faf",
+      "displayName": "",
+      "id": "b1faf",
+      "name": "Material #3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e19b6": {
+      "importer": "gltf-scene",
+      "uuid": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@e19b6",
+      "displayName": "",
+      "id": "e19b6",
+      "name": "Coin_LP.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #1",
+        "uri": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@a2364"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@e19b6",
+    "assetFinder": {
+      "meshes": [
+        "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@c6160"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@6e70c"
+      ],
+      "materials": [
+        "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@b1faf"
+      ],
+      "scenes": [
+        "0d5c9e9b-89aa-4e7a-8869-1458af4d2ec3@e19b6"
+      ]
+    },
+    "tangents": 1,
+    "normals": 0
+  }
+}

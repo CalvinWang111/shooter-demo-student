@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b2a4f938-65ff-46e0-abab-6230d760059a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "700ec": {
+      "importer": "gltf-mesh",
+      "uuid": "b2a4f938-65ff-46e0-abab-6230d760059a@700ec",
+      "displayName": "",
+      "id": "700ec",
+      "name": "Queen.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "65acf": {
+      "importer": "gltf-animation",
+      "uuid": "b2a4f938-65ff-46e0-abab-6230d760059a@65acf",
+      "displayName": "",
+      "id": "65acf",
+      "name": "Cannon_Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "b2a4f938-65ff-46e0-abab-6230d760059a@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 37
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3e201": {
+      "importer": "texture",
+      "uuid": "b2a4f938-65ff-46e0-abab-6230d760059a@3e201",
+      "displayName": "",
+      "id": "3e201",
+      "name": "Map #52.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/game/res/fbx/role/queen/Queen.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "be63d": {
+      "importer": "gltf-material",
+      "uuid": "b2a4f938-65ff-46e0-abab-6230d760059a@be63d",
+      "displayName": "",
+      "id": "be63d",
+      "name": "Material #1993696.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "08890": {
+      "importer": "gltf-scene",
+      "uuid": "b2a4f938-65ff-46e0-abab-6230d760059a@08890",
+      "displayName": "",
+      "id": "08890",
+      "name": "Queen@Cannon_Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #52",
+        "uri": "db://assets/game/res/fbx/role/queen/Queen.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Queen_Cannon_Idle",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Cannon_Idle",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "b2a4f938-65ff-46e0-abab-6230d760059a@08890",
+    "assetFinder": {
+      "meshes": [
+        "b2a4f938-65ff-46e0-abab-6230d760059a@700ec"
+      ],
+      "skeletons": [
+        "b2a4f938-65ff-46e0-abab-6230d760059a@438fe"
+      ],
+      "textures": [
+        "b2a4f938-65ff-46e0-abab-6230d760059a@3e201"
+      ],
+      "materials": [
+        "b2a4f938-65ff-46e0-abab-6230d760059a@be63d"
+      ],
+      "scenes": [
+        "b2a4f938-65ff-46e0-abab-6230d760059a@08890"
+      ]
+    },
+    "tangents": 1,
+    "normals": 0,
+    "disableMeshSplit": true
+  }
+}
